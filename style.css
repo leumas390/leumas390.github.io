@@ -42,8 +42,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    padding: 28px 11%;
+    background: black;
+    padding: 8px 11%;
     border-bottom: 1px solid transparent;
     transition: all ease .5s;
     
@@ -58,6 +58,8 @@ header{
 }
 .navlist{
     display: flex;
+    
+    
 }
 .navlist a{
     color: var(--second-color)
@@ -237,18 +239,18 @@ header.sticky {
 }
 .about{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
     align-items: center;
     gap: 10rem;
     display: flex;
     margin-top: 5%;
-    margin-bottom: -5%;
+    margin-bottom: 5%;
     display: inline-flex;
-
+    
 }
 .about-img img{
     width: 500px;
-    margin-left: -5rem;
+    margin-left: -1rem;
     
 }
 .about-text h2{
@@ -283,7 +285,7 @@ header.sticky {
     color: #faf7f8;
     text-decoration: none;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 0rem;
     letter-spacing: 15px;
     text-transform: uppercase;
@@ -368,13 +370,15 @@ header.sticky {
 }
 
 .Contact{
-    background: url(images/IMG_9523.PNG);
+    background: url(images/wave-red-lines-light-wallpaper-preview.jpg) ;
+    
     background-position: center;
     display: flex;
     gap: 100px;
+    background-size: cover;
+    justify-content: flex-start;
     
-    
-
+ 
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -413,10 +417,11 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #1f1e1e;
   padding: 20px;
-  width: 50rem;
+  width: 30rem;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -10px;
+  margin-right: -100px;
+  
   
 
 }
@@ -1019,14 +1024,18 @@ header{
     }
     .hero-text h3{
         font-size: 10px;
+        
 
     }
     .hero-text h4{
         font-size: 10px;
+        margin-top: -40px;
+        
     
     }
     .hero-text{
         width: 200px;
+        
         
         
     }
@@ -1041,9 +1050,10 @@ header{
     .about{
         background-size: cover;
         background-position: center;
-        margin-left: 30px;
+        margin-left: 10px;
         align-items: center;
         justify-content: flex-start;
+        padding: 0px;
         
         
     }
@@ -1092,15 +1102,17 @@ header{
         align-items: center;
         display: center;
         flex-wrap: wrap;
-        width: 25rem;
+        width: 20rem;
+        
         }
+
     .last-col{
         margin: 0px;
         padding: 0px;
         text-align: center;
         align-content: center;
         width: 270px;
-        margin-left: 50px;
+        margin-left: 20px;
     
         }
         .service{
@@ -1121,7 +1133,8 @@ header{
             padding: 0px;
         }
         .Contact{
-            margin-left: 30px;
+            margin-left: 0px;
+            margin-top: 10px;
         }
     .Contact .h2{
         font-size: -110px;
@@ -1137,7 +1150,9 @@ header{
         .text-center{
             margin-top: -120px;
             margin-left: 10px;
+            margin-top: 1px;
         }
+        
 }
 @media(max-width:320px){
     .home{
@@ -1171,7 +1186,7 @@ header{
     .about{
         background-size: cover;
         background-position: center;
-        margin-left: 30px;
+        margin-left: 10px;
         align-items: center;
         justify-content: flex-start;
         
@@ -1222,7 +1237,7 @@ header{
         align-items: center;
         display: center;
         flex-wrap: wrap;
-        width: 20rem;
+        width: 10rem;
         }
     .last-col{
         margin: 0px;
